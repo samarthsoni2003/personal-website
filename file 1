@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samarth Soni's Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #77aaff 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            float: left;
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        .main-header {
+            text-align: center;
+            text-transform: uppercase;
+            margin-top: 0;
+        }
+        .content {
+            padding: 20px;
+            background: #fff;
+            margin-bottom: 20px;
+        }
+        .content h2 {
+            text-align: center;
+        }
+        .content p {
+            line-height: 1.5;
+        }
+        .contact, .education, .experience, .projects, .skills, .hobbies {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 class="main-header">Samarth Soni</h1>
+            <nav>
+                <ul>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#hobbies">Hobbies</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="container">
+        <div class="content">
+            <section id="contact" class="contact">
+                <h2>Contact</h2>
+                <p>Email: <a href="mailto:samarthsoni2003@gmail.com">samarthsoni2003@gmail.com</a></p>
+                <p>LinkedIn: <a href="https://linkedin.com/in/samarth-soni-3a1a03267" target="_blank">Samarth Soni</a></p>
+                <p>Phone Number: 9810300036</p>
+                <p>GitHub: <a href="https://github.com/samarthsoni2003" target="_blank">samarthsoni2003</a></p>
+                <p>Coding Ninjas: <a href="https://www.codingninjas.com/studio/profile/f9f7f" target="_blank">Profile</a></p>
+            </section>
+            <section id="education" class="education">
+                <h2>Education</h2>
+                <p><strong>Guru Gobind Singh Indraprastha University Dwarka</strong></p>
+                <p>University School of Information Communication and Technology</p>
+                <p>July 2021 – July 2025</p>
+                <p>Computer Science Engineering | CGPA : 8.028</p>
+                <p><strong>Mount Carmel School</strong></p>
+                <p>XII | CBSE | Non Medical with Computer Science | 89.4% | 2021</p>
+            </section>
+            <section id="experience" class="experience">
+                <h2>Work Experience</h2>
+                <p><strong>CodSoft</strong></p>
+                <p>Web Development Intern</p>
+                <p>01 August 23 – 31 August 23</p>
+                <ul>
+                    <li>Collaborate with the design team to implement user interfaces based on wireframes and design mockups.</li>
+                    <li>Write clean, efficient, and maintainable code using HTML, CSS, and JavaScript(basic).</li>
+                </ul>
+                <p><strong>Utkrisht</strong></p>
+                <p>Web Development Intern</p>
+                <p>01 June 23 – 30 June 23</p>
+                <ul>
+                    <li>Worked on front-end development using HTML, CSS, and JavaScript.</li>
+                    <li>Assisted in the development of responsive web designs.</li>
+                </ul>
+            </section>
+            <section id="projects" class="projects">
+                <h2>Projects</h2>
+                <ul>
+                    <li>NETFLIX Clone using HTML and CSS</li>
+                    <li>Recipe Website using HTML and CSS</li>
+                    <li>Online Food Delivery system using HTML and CSS</li>
+                </ul>
+            </section>
+            <section id="skills" class="skills">
+                <h2>Skills</h2>
+                <ul>
+                    <li>Microsoft Office (PowerPoint, Word)</li>
+                    <li>Programming Languages: Python (Basic), HTML, CSS, JavaScript (Basic), C++, SQL (Basic)</li>
+                </ul>
+            </section>
+            <section id="hobbies" class="hobbies">
+                <h2>Hobbies</h2>
+                <ul>
+                    <li>Volunteering</li>
+                    <li>Fitness</li>
+                </ul>
+            </section>
+        </div>
+    </div>
+</body>
+</html>
